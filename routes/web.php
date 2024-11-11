@@ -20,3 +20,11 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about', ['nama' => 'Sena']);
 });
+
+Route::get('/cheat', function () {
+    return view('cheat');
+});
+
+Route::get('/contact', action: function () {
+    return view('contact');
+});
