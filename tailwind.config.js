@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
-const defaultTheme = require("tailwindcss/defaultTheme");
+import defaultTheme from "tailwindcss/defaultTheme"; // Ganti require dengan import
+
 export default {
     content: [
         "./resources/**/*.blade.php",
